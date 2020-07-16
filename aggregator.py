@@ -7,7 +7,7 @@ SEPARATOR = " --- "
 
 def print_results(results):
     for res in results:
-        print(str(res[0]) + SEPARATOR + "Rating:" + str(res[2]) + SEPARATOR + str(res[1]) + "\n")
+        print(str(res[0]) + SEPARATOR + "Rating:" + str(res[2]) + "\n" + SEPARATOR + str(res[1]) + "\n")
 
 
 def aggregate(modules):
